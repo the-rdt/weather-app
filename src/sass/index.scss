@@ -1,0 +1,19 @@
+@use "./fonts";
+@use "./colors";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.test {
+  width: 100%;
+  height: 500px;
+  background: colors.$primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 120px;
+  font-family: "Grenze Gotisch", cursive;
+}
