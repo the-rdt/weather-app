@@ -26,7 +26,7 @@ module.exports = {
   entry: "./src/js/index.js",
   output: {
     path: path.resolve(__dirname, "./dist"),
-    filename: "index.[contentHash].js",
+    filename: "index.js",
   },
   optimization: {
     minimizer: [
@@ -39,12 +39,12 @@ module.exports = {
           collapseWhitespace: true,
           removeComments: true,
         },
-        filename: "index.[hash].html",
+        filename: "index.html",
       }),
     ],
   },
   plugins: [
-    new MiniCssExtractPlugin({ filename: "index.[contentHash].css" }),
+    new MiniCssExtractPlugin({ filename: "index.css" }),
     new CleanWebpackPlugin(),
   ],
   module: {
