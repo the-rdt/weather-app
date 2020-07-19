@@ -10,6 +10,11 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 // when using contentHash in names, after each new build, name of file changes
 // this leads to multiple unused and waste copies in build
 // this plugin clears those extra copies, and keeps only meaningful files
+
+/**************************************************************************************************************/
+/******************contentHashing didn't work fot me on netlify so removed it**********************************/
+/**************************************************************************************************************/
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // extract css to its separate file

@@ -3,9 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
     <title>Weather-App</title>
   </head>
   <body>
-    <div class="test">RDT...</div>
+    <div class="container">
+      <main class="col-12 col-md-9 col-lg-6 weather-card">
+        <form class="input-fields">
+          <input type="search" id="city" name="city" placeholder="city" />
+          <input type="submit" id="check-btn" name="check" value="check" />
+        </form>
+        <div class="after-receive">
+          <div class="wait-loader"></div>
+          <div class="weather-data">
+            <div class="temprature">Temprature : 24&deg; C</div>
+            <div class="humidity">Humidity : 70%</div>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
