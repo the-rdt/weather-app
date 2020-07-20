@@ -1,5 +1,4 @@
 import { getData } from "./models/get-weather";
-import views from "./views/views-test";
 import dom from "./domObjects";
 import "../sass/index.scss";
 

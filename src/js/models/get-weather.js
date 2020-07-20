@@ -14,7 +14,7 @@ export async function getData(city) {
     if (error.response.status === 400) {
       console.log("invalid city");
     } else if (error.response.status === 404) {
-      console.log("network error");
+      console.log("invalid city");
     }
   }
   // //catch (error) {
