@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/the-golden-wizaRD/weather-app.git"
+    "url": "git+https://github.com/the-rdt/weather-app.git"
   },
   "keywords": [],
   "author": "RDT...",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/the-golden-wizaRD/weather-app/issues"
+    "url": "https://github.com/the-rdt/weather-app/issues"
   },
-  "homepage": "https://github.com/the-golden-wizaRD/weather-app#readme",
+  "homepage": "https://github.com/the-rdt/weather-app#readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
